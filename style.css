@@ -1,0 +1,167 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Auth Page */
+.auth-body {
+  background: linear-gradient(135deg, #7e3ff2, #9d4edd);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.auth-card {
+  background: #fff;
+  padding: 30px;
+  border-radius: 16px;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.title {
+  color: #7e3ff2;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #666;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.tabs button {
+  border: none;
+  background: #eee;
+  padding: 8px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: 0 4px;
+}
+
+.tabs button.active {
+  background: #7e3ff2;
+  color: #fff;
+}
+
+input {
+  width: 100%;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+button#authBtn {
+  width: 100%;
+  background: #7e3ff2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.msg {
+  color: red;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+/* Dashboard */
+.dash-body {
+  background: #f3f0ff;
+  min-height: 100vh;
+}
+
+.dash-header {
+  background: #7e3ff2;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dash-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.todo-section, .ideas {
+  background: #fff;
+  padding: 20px;
+  border-radius: 16px;
+  width: 300px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.todo-section h3, .ideas h3 {
+  color: #7e3ff2;
+  margin-bottom: 10px;
+}
+
+.input-box {
+  display: flex;
+}
+
+.input-box input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #ccc;
+}
+
+.input-box button {
+  background: #7e3ff2;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 0 8px 8px 0;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+span.done {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.del {
+  background: none;
+  border: none;
+  color: #f43f5e;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.dash-footer {
+  text-align: center;
+  padding: 10px;
+  color: #666;
+  font-size: 13px;
+}
